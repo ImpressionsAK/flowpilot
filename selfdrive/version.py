@@ -82,7 +82,7 @@ def is_official() -> bool:
   if origin is None:
     return False
 
-  return origin.startswith('git@github.com:flowdriveai/flowpilot.git') or origin.startswith('https://github.com/flowdriveai/flowpilot.git')
+  return origin.startswith('git@github.com:impressionsak/flowpilot.git') or origin.startswith('https://github.com/impressionsak/flowpilot.git')
 
 
 @cache
