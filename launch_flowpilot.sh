@@ -13,10 +13,10 @@ export PASSIVE="0"
 export ZMQ_MESSAGING_PROTOCOL="TCP" # TCP, INTER_PROCESS, SHARED_MEMORY
 #export IP_CAN_ADDR="127.0.0.1"
 
-export SIMULATION="1"
+export SIMULATION="0"
 #export FINGERPRINT="HONDA CIVIC 2016"
 
 ## android specific ##
-export USE_SNPE="0" # only works for snapdragon devices.
+export USE_SNPE="1" # only works for snapdragon devices.
 
 flowinit
